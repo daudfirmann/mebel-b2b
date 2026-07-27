@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mebel Naturalindo B2B | Solusi Furnitur untuk Bisnis & Profesional Yogyakarta</title>
+
+<link rel="icon" type="image/png" href="img/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            navy: '#1A2E3B',
+            navyLight: '#24404F',
+            gold: '#C8A97E',
+            goldHover: '#B79367',
+            dark: '#0D1B2A',
+            bg: '#F7F4F0',
+            text: '#1F2A2E',
+            tableHead: '#2E86AB'
+          }
+        },
+        fontFamily: {
+          heading: ['Montserrat', 'sans-serif'],
+          sans: ['Inter', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  .material-symbols-rounded{
+    font-variation-settings:'FILL' 1,'wght' 400,'GRAD' 0,'opsz' 24;
+    vertical-align: middle;
+  }
+  .scrollbar-hide::-webkit-scrollbar{ display:none; }
+  .scrollbar-hide{ -ms-overflow-style:none; scrollbar-width:none; }
+  details > summary{ list-style:none; }
+  details > summary::-webkit-details-marker{ display:none; }
+  @keyframes slideDown{
+    0%{ opacity:0; transform:translateY(-8px); }
+    100%{ opacity:1; transform:translateY(0); }
+  }
+  details.group[open] summary ~ div{ animation: slideDown .3s ease-in-out forwards; }
+  .tab-btn.active{
+    background-color:#1A2E3B;
+    color:#fff;
+  }
+  .tab-panel{ display:none !important; }
+  .tab-panel.active{ display:grid !important; }
+  .b2b-table{ border-collapse:separate; border-spacing:0; }
+  .b2b-table th{ background-color:#2E86AB; }
+  .b2b-table td, .b2b-table th{ border-bottom:1px solid #e5e1da; }
+  .b2b-table tr:last-child td{ border-bottom:none; }
+</style>
+</head>
+<body class="font-sans text-brand-text bg-brand-bg antialiased selection:bg-brand-gold selection:text-white">
+
+<!-- NAV -->
+<nav class="fixed w-full z-50 bg-brand-bg/95 backdrop-blur-md border-b border-black/5">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-20 items-center">
+      <div class="flex items-center gap-2">
+
+          <div class="w-10 h-10 md:w-14 md:h-14 rounded-2xl flex items-center justify-center">
+              <img 
+              src="img/favicon.png" 
+              alt="Logo Mebel Naturalindo"
+              class="w-full h-full object-contain"
+              >
+          </div>
+
+          <div>
+              <h1 class="text-lg md:text-2xl font-extrabold tracking-tight text-brand-navy leading-tight">
+              Mebel Naturalindo
+              </h1>
+              <p class="hidden md:block text-xs text-brand-gold tracking-[0.2em] uppercase">
+              Natural • Custom • Quality
+              </p>
+          </div>
+
+      </div>
+      <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20furnitur%20untuk%20bisnis%20saya." target="_blank" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 rounded-full text-sm text-white font-semibold bg-green-500 hover:bg-green-600 transition-colors shadow-sm gap-2">
+        <i class="fa-brands fa-whatsapp text-base"></i>
+        Minta Penawaran Gratis
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- SEKSI 1 — HERO -->
+<section class="pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden bg-brand-bg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+      <div class="w-full lg:w-1/2 space-y-8">
+        <h1 class="text-4xl md:text-4xl lg:text-6xl font-heading font-extrabold leading-tight text-brand-navy">
+          SOLUSI FURNITUR UNTUK
+          <span class="font-extrabold text-brand-gold italic">BISNIS</span>
+          DAN
+          <span class="font-extrabold text-brand-gold italic">PROFESIONAL</span>
+          DI YOGYAKARTA
+        </h1>
+        <p class="text-lg text-gray-600 leading-relaxed md:pr-6">
+          Dari café dan restoran, hotel dan villa, kantor hingga properti sewa — kami menyediakan furnitur kayu solid custom yang dirancang untuk intensitas penggunaan komersial. Tepat waktu, bergaransi, dengan kontrak yang jelas.
+        </p>
+        <div class="space-y-3">
+          <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20furnitur%20untuk%20bisnis%20saya." target="_blank" class="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 text-base font-semibold rounded-full text-white bg-brand-navy hover:bg-brand-navyLight transition-all shadow-lg shadow-brand-navy/20 gap-2 transform hover:scale-105">
+            <i class="fa-brands fa-whatsapp text-base"></i> Minta Penawaran Gratis
+          </a>
+          <p class="text-sm text-gray-500 italic">Sebutkan jenis bisnis dan kebutuhanmu — estimasi harga dalam 1 hari kerja.</p>
+        </div>
+        <div class="pt-6 border-t border-gray-200">
+          <div class="flex flex-wrap gap-x-6 gap-y-3 text-sm font-medium text-gray-700">
+            <span class="flex items-center gap-1.5"><span class="material-symbols-rounded text-brand-gold text-lg">apartment</span> 500+ Proyek Bisnis</span>
+            <span class="hidden sm:inline text-gray-300">|</span>
+            <span class="flex items-center gap-1.5"><span class="material-symbols-rounded text-brand-gold text-lg">schedule</span> On-Time Delivery</span>
+            <span class="hidden sm:inline text-gray-300">|</span>
+            <span class="flex items-center gap-1.5"><span class="material-symbols-rounded text-brand-gold text-lg">description</span> Kontrak Tertulis</span>
+            <span class="hidden sm:inline text-gray-300">|</span>
+            <span class="flex items-center gap-1.5"><span class="material-symbols-rounded text-brand-gold text-lg">build</span> Garansi Pengerjaan</span>
+            <span class="hidden sm:inline text-gray-300">|</span>
+            <span class="flex items-center gap-1.5"><span class="material-symbols-rounded text-brand-gold text-lg">handshake</span> Program Mitra Arsitek</span>
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2">
+        <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] group">
+          <img loading="lazy" src="https://placehold.co/1000x800/C8A97E/ffffff?text=Foto:+Venue+Bisnis+Furnished+(Cafe+Japandi+/+Lobby+Hotel)" alt="Venue bisnis furnished dengan furnitur kayu hangat" class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
+          <!-- <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 2 — NAVIGATOR SEGMEN -->
+<section class="py-16 md:py-20 bg-white border-y border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col sm:flex-row justify-center gap-3 mb-12">
+      <button type="button" data-tab="tab1" class="tab-btn active px-6 py-3 rounded-full font-semibold text-sm md:text-base border-2 border-brand-navy transition-colors">
+        Saya Butuh Furnitur untuk Bisnis Saya
+      </button>
+      <button type="button" data-tab="tab2" class="tab-btn px-6 py-3 rounded-full font-semibold text-sm md:text-base border-2 border-brand-navy text-brand-navy transition-colors">
+        Saya Profesional / Mitra Bisnis
+      </button>
+    </div>
+
+    <!-- TAB 1 -->
+    <div id="tab1" class="tab-panel active grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <a href="#cafe-restoran" class="group bg-brand-bg rounded-2xl p-8 border border-brand-gold/40 hover:-translate-y-1.5 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-full bg-brand-navy flex items-center justify-center mb-6">
+          <span class="material-symbols-rounded text-2xl text-brand-gold">local_cafe</span>
+        </div>
+        <h3 class="text-lg font-heading font-bold text-brand-navy mb-2">Café &amp; Restoran</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">Furnitur tahan penggunaan harian, gaya Japandi &amp; natural yang membuat pelanggan betah.</p>
+        <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy group-hover:gap-2 transition-all">Lihat solusinya <span class="material-symbols-rounded text-base">arrow_forward</span></span>
+      </a>
+      <a href="#hotel-villa" class="group bg-brand-bg rounded-2xl p-8 border border-brand-gold/40 hover:-translate-y-1.5 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-full bg-brand-navy flex items-center justify-center mb-6">
+          <span class="material-symbols-rounded text-2xl text-brand-gold">hotel</span>
+        </div>
+        <h3 class="text-lg font-heading font-bold text-brand-navy mb-2">Hotel, Villa &amp; Resort</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">Paket FF&amp;E lengkap, material hotel-grade, produksi on-schedule.</p>
+        <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy group-hover:gap-2 transition-all">Lihat solusinya <span class="material-symbols-rounded text-base">arrow_forward</span></span>
+      </a>
+      <a href="#kantor-coworking" class="group bg-brand-bg rounded-2xl p-8 border border-brand-gold/40 hover:-translate-y-1.5 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-full bg-brand-navy flex items-center justify-center mb-6">
+          <span class="material-symbols-rounded text-2xl text-brand-gold">business_center</span>
+        </div>
+        <h3 class="text-lg font-heading font-bold text-brand-navy mb-2">Kantor &amp; Co-working Space</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">Furnitur kerja ergonomis dan estetis — dari meja direksi hingga lounge area.</p>
+        <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy group-hover:gap-2 transition-all">Lihat solusinya <span class="material-symbols-rounded text-base">arrow_forward</span></span>
+      </a>
+      <a href="#kos-kosan" class="group bg-brand-bg rounded-2xl p-8 border border-brand-gold/40 hover:-translate-y-1.5 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-full bg-brand-navy flex items-center justify-center mb-6">
+          <span class="material-symbols-rounded text-2xl text-brand-gold">home</span>
+        </div>
+        <h3 class="text-lg font-heading font-bold text-brand-navy mb-2">Pemilik Kos-kosan</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">Paket furnitur per kamar dalam jumlah besar. Naikkan standar kos, naikkan harga sewa.</p>
+        <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy group-hover:gap-2 transition-all">Lihat solusinya <span class="material-symbols-rounded text-base">arrow_forward</span></span>
+      </a>
+    </div>
+
+    <!-- TAB 2 -->
+    <div id="tab2" class="tab-panel grid grid-cols-1 md:grid-cols-3 gap-6">
+      <a href="#kontraktor" class="group bg-brand-bg rounded-2xl p-8 border border-brand-gold/40 hover:-translate-y-1.5 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-full bg-brand-navy flex items-center justify-center mb-6">
+          <span class="material-symbols-rounded text-2xl text-brand-gold">handyman</span>
+        </div>
+        <h3 class="text-lg font-heading font-bold text-brand-navy mb-2">Kontraktor Interior</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">Kami menjadi supplier furnitur custom andalan untuk proyek-proyek kamu.</p>
+        <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy group-hover:gap-2 transition-all">Lihat program mitra <span class="material-symbols-rounded text-base">arrow_forward</span></span>
+      </a>
+      <a href="#developer" class="group bg-brand-bg rounded-2xl p-8 border border-brand-gold/40 hover:-translate-y-1.5 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-full bg-brand-navy flex items-center justify-center mb-6">
+          <span class="material-symbols-rounded text-2xl text-brand-gold">holiday_village</span>
+        </div>
+        <h3 class="text-lg font-heading font-bold text-brand-navy mb-2">Developer Perumahan</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">Furnitur show unit dan paket furnishing untuk pembeli rumah baru.</p>
+        <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy group-hover:gap-2 transition-all">Lihat program mitra <span class="material-symbols-rounded text-base">arrow_forward</span></span>
+      </a>
+      <a href="#arsitek" class="group bg-brand-bg rounded-2xl p-8 border border-brand-gold/40 hover:-translate-y-1.5 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-full bg-brand-navy flex items-center justify-center mb-6">
+          <span class="material-symbols-rounded text-2xl text-brand-gold">architecture</span>
+        </div>
+        <h3 class="text-lg font-heading font-bold text-brand-navy mb-2">Arsitek &amp; Desainer Interior</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">Program mitra eksklusif — referral fee, prioritas produksi, dan dukungan presentasi klien.</p>
+        <span class="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy group-hover:gap-2 transition-all">Lihat program mitra <span class="material-symbols-rounded text-base">arrow_forward</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 3A — CAFÉ & RESTORAN -->
+<section id="cafe-restoran" class="py-20 md:py-24 bg-brand-bg scroll-mt-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 mb-16">
+      <div class="w-full lg:w-1/2 order-2 lg:order-1">
+        <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Untuk Pemilik Café &amp; Restoran</span>
+        <h2 class="mt-3 text-3xl md:text-4xl font-heading font-extrabold text-brand-navy leading-tight">Furnitur yang Membuat Pelanggan Betah — dan Terus Kembali</h2>
+      </div>
+      <div class="w-full lg:w-1/2 order-1 lg:order-2">
+        <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+          <img loading="lazy" src="https://placehold.co/900x700/C8A97E/ffffff?text=Foto%3A+Meja-Kursi+Cafe+Kayu+Natural" alt="Meja-kursi café kayu natural" class="object-cover w-full h-full">
+        </div>
+      </div>
+    </div>
+
+    <p class="text-lg font-semibold text-brand-navy mb-8">Sebagai pemilik café atau restoran, kamu tahu:</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <div class="bg-white rounded-2xl p-7 border border-brand-gold/20 shadow-sm">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">photo_camera</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Foto interior café adalah iklan paling murah</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Di era Instagram dan Google Maps, foto venue kamu adalah penentu apakah orang mau datang atau tidak. Furnitur yang tidak "nyambung" merusak seluruh estetika yang sudah kamu bangun.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-7 border border-brand-gold/20 shadow-sm">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">chair</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Furnitur retail tidak dirancang untuk komersial</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Kursi dari toko umum mulai goyah dalam 6–12 bulan intensitas café. Itu artinya biaya ganti yang terus berulang.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-7 border border-brand-gold/20 shadow-sm">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">palette</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Susah cari yang sesuai konsep</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Mau gaya Japandi, industrial natural, atau rustic modern — jarang yang benar-benar cocok tanpa kompromi.</p>
+      </div>
+    </div>
+
+    <div class="bg-brand-navy rounded-2xl p-8 md:p-10 text-white mb-8">
+      <p class="text-lg font-heading font-bold mb-6">Solusi kami untuk café &amp; restoran:</p>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mb-8">
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-200 text-sm leading-relaxed">Kursi dining, bar stool, dan meja café — kayu solid, finishing pilihan</span></li>
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-200 text-sm leading-relaxed">Booth seating dan sofa area — custom ukuran dan material</span></li>
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-200 text-sm leading-relaxed">Elemen interior: meja kasir, rak display, backdrop kayu, partisi ruangan</span></li>
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-200 text-sm leading-relaxed">Paket lengkap: dari layout hingga furnitur terpasang</span></li>
+      </ul>
+      <p class="text-sm text-brand-gold/90 border-t border-white/10 pt-6"><strong class="text-white">Estimasi nilai proyek:</strong> Paket 30 kursi + 10 meja mulai dari Rp20 juta (tergantung spesifikasi material dan desain).</p>
+    </div>
+
+    <div class="text-center">
+      <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20pemilik%20caf%C3%A9%20dan%20ingin%20konsultasi%20furnitur." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full text-white bg-brand-navy hover:bg-brand-navyLight transition-all shadow-lg gap-2 transform hover:scale-105">
+        <span class="material-symbols-rounded text-xl">local_cafe</span> Konsultasikan Proyek Cafému
+      </a>
+      <p class="text-sm text-gray-500 italic mt-3">Estimasi harga dalam 1 hari kerja</p>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 3B — HOTEL, VILLA & RESORT -->
+<section id="hotel-villa" class="py-20 md:py-24 bg-white scroll-mt-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 mb-16">
+      <div class="w-full lg:w-1/2">
+        <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Untuk Pemilik Hotel, Villa &amp; Resort</span>
+        <h2 class="mt-3 text-3xl md:text-4xl font-heading font-extrabold text-brand-navy leading-tight">Furnitur Hotel-Grade yang Meningkatkan Rating Tamu dan Nilai Properti</h2>
+      </div>
+      <div class="w-full lg:w-1/2">
+        <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+          <img loading="lazy" src="https://placehold.co/900x700/C8A97E/ffffff?text=Foto%3A+Kamar+Villa+%2F+Hotel+Headboard+Kayu" alt="Kamar villa atau hotel dengan headboard kayu" class="object-cover w-full h-full">
+        </div>
+      </div>
+    </div>
+
+    <p class="text-lg font-semibold text-brand-navy mb-8">Proyek hospitality punya tantangan yang berbeda:</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+      <div class="bg-brand-bg rounded-2xl p-7 border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">schedule</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Deadline ketat — tidak ada toleransi molor</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Hotel yang telat buka kehilangan pendapatan nyata setiap harinya. Kami bekerja dengan milestone produksi yang tercantum di kontrak.</p>
+      </div>
+      <div class="bg-brand-bg rounded-2xl p-7 border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">sync</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Dipakai ratusan tamu berbeda setiap tahun</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Material dan konstruksinya harus melampaui standar furnitur rumah tangga biasa.</p>
+      </div>
+      <div class="bg-brand-bg rounded-2xl p-7 border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">star</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Tamu menilai dari detailnya</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Furnitur yang tidak konsisten dengan branding properti menurunkan persepsi nilai — langsung berdampak pada review bintang dan harga yang bisa kamu charge.</p>
+      </div>
+    </div>
+
+    <p class="text-lg font-semibold text-brand-navy mb-5">Yang kami tangani untuk proyek hospitality:</p>
+    <div class="overflow-x-auto mb-14 rounded-xl shadow-sm border border-gray-200">
+      <table class="b2b-table w-full text-sm">
+        <thead>
+          <tr>
+            <th class="text-left px-5 py-3.5 font-heading font-semibold text-white">Area Properti</th>
+            <th class="text-left px-5 py-3.5 font-heading font-semibold text-white">Item Furnitur</th>
+          </tr>
+        </thead>
+        <tbody class="bg-white">
+          <tr><td class="px-5 py-4 font-medium text-brand-navy">Kamar hotel &amp; villa</td><td class="px-5 py-4 text-gray-600">Headboard, nakas, meja kerja, lemari, luggage rack</td></tr>
+          <tr><td class="px-5 py-4 font-medium text-brand-navy">Lobby &amp; lounge</td><td class="px-5 py-4 text-gray-600">Sofa, coffee table, kursi tunggu, meja resepsionis</td></tr>
+          <tr><td class="px-5 py-4 font-medium text-brand-navy">Restoran &amp; café hotel</td><td class="px-5 py-4 text-gray-600">Meja makan, kursi dining, meja buffet, booth</td></tr>
+          <tr><td class="px-5 py-4 font-medium text-brand-navy">Area outdoor</td><td class="px-5 py-4 text-gray-600">Furnitur teras, gazebo, sun lounger kayu</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="text-lg font-semibold text-brand-navy mb-5">Panduan Anggaran FF&amp;E per Kamar:</p>
+    <div class="overflow-x-auto mb-12 rounded-xl shadow-sm border border-gray-200">
+      <table class="b2b-table w-full text-sm">
+        <thead>
+          <tr>
+            <th class="text-left px-5 py-3.5 font-heading font-semibold text-white">Kategori Properti</th>
+            <th class="text-left px-5 py-3.5 font-heading font-semibold text-white">Estimasi Anggaran</th>
+          </tr>
+        </thead>
+        <tbody class="bg-white">
+          <tr><td class="px-5 py-4 font-medium text-brand-navy">Hotel budget / bintang 2–3</td><td class="px-5 py-4 text-gray-600">Rp60 juta – Rp190 juta per kamar</td></tr>
+          <tr><td class="px-5 py-4 font-medium text-brand-navy">Hotel upscale / bintang 4</td><td class="px-5 py-4 text-gray-600">Rp190 juta – Rp350 juta per kamar</td></tr>
+          <tr><td class="px-5 py-4 font-medium text-brand-navy">Villa boutique &amp; resort</td><td class="px-5 py-4 text-gray-600">Disesuaikan dengan konsep — konsultasikan dengan kami</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="text-center">
+      <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20mendiskusikan%20proyek%20furnitur%20untuk%20hotel%2Fvilla%20saya." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full text-white bg-brand-navy hover:bg-brand-navyLight transition-all shadow-lg gap-2 transform hover:scale-105">
+        <span class="material-symbols-rounded text-xl">hotel</span> Diskusikan Proyek Hospitality Kamu
+      </a>
+      <p class="text-sm text-gray-500 italic mt-3">Proposal + estimasi dalam 2 hari kerja</p>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 3C — KANTOR & CO-WORKING -->
+<section id="kantor-coworking" class="py-20 md:py-24 bg-brand-bg scroll-mt-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 mb-14">
+      <div class="w-full lg:w-1/2 order-2 lg:order-1 space-y-5">
+        <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Untuk Pemilik Kantor &amp; Co-working Space</span>
+        <h2 class="mt-1 text-3xl md:text-4xl font-heading font-extrabold text-brand-navy leading-tight">Ruang Kerja yang Mendukung Produktivitas — dan Mencerminkan Nilai Perusahaan</h2>
+        <p class="text-gray-600 leading-relaxed">Kantor bukan sekadar tempat bekerja: Tampilan kantor berbicara kepada karyawan, klien, dan partner bisnis kamu. Furnitur yang tidak konsisten dan tidak estetis menciptakan kesan yang tidak profesional — bahkan sebelum pertemuan dimulai.</p>
+        <p class="text-gray-600 leading-relaxed">Untuk co-working space, furnitur adalah produk utama yang kamu jual. Anggota memilih tempat kerja berdasarkan kenyamanan dan estetika — bukan hanya harga.</p>
+      </div>
+      <div class="w-full lg:w-1/2 order-1 lg:order-2">
+        <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+          <img loading="lazy" src="https://placehold.co/900x700/C8A97E/ffffff?text=Foto%3A+Area+Kerja+Meja+Kayu+%26+Kursi+Ergonomis" alt="Area kerja dengan meja kayu dan kursi ergonomis" class="object-cover w-full h-full">
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl p-8 md:p-10 border border-brand-gold/20 shadow-sm mb-8">
+      <p class="text-lg font-heading font-bold text-brand-navy mb-6">Solusi furnitur untuk kantor &amp; co-working:</p>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mb-8">
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-600 text-sm leading-relaxed">Meja kerja — single desk, standing desk, meja rapat, meja direksi</span></li>
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-600 text-sm leading-relaxed">Area lounge &amp; receptionist — sofa kayu, coffee table, meja resepsionis custom</span></li>
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-600 text-sm leading-relaxed">Rak dan storage — rak buku, filing cabinet kayu, display unit</span></li>
+        <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-600 text-sm leading-relaxed">Partisi &amp; elemen dekorasi — partisi kayu, backdrop logo, panel dinding</span></li>
+      </ul>
+      <p class="font-semibold text-brand-navy mb-3">Jenis proyek yang kami tangani:</p>
+      <ul class="space-y-2">
+        <li class="flex items-start gap-3 text-gray-600 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Kantor baru atau renovasi (skala UKM hingga perusahaan menengah)</li>
+        <li class="flex items-start gap-3 text-gray-600 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Co-working space dengan 20–200 workstation</li>
+        <li class="flex items-start gap-3 text-gray-600 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Ruang meeting dan ruang tunggu</li>
+      </ul>
+    </div>
+
+    <div class="text-center">
+      <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20butuh%20furnitur%20custom%20untuk%20kantor%2Fco-working%20space%20saya." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full text-white bg-brand-navy hover:bg-brand-navyLight transition-all shadow-lg gap-2 transform hover:scale-105">
+        <span class="material-symbols-rounded text-xl">business_center</span> Konsultasikan Kebutuhan Kantor Kamu
+      </a>
+      <p class="text-sm text-gray-500 italic mt-3">Gratis konsultasi &amp; estimasi</p>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 3D — KOS-KOSAN -->
+<section id="kos-kosan" class="py-20 md:py-24 bg-white scroll-mt-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 mb-10">
+      <div class="w-full lg:w-1/2">
+        <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Untuk Pemilik &amp; Investor Kos-kosan</span>
+        <h2 class="mt-3 text-3xl md:text-4xl font-heading font-extrabold text-brand-navy leading-tight">Furnitur Kos yang Membuat Kamarmu Lebih Cepat Tersewa — dan Lebih Mahal</h2>
+      </div>
+      <div class="w-full lg:w-1/2">
+        <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+          <img loading="lazy" src="https://placehold.co/900x700/C8A97E/ffffff?text=Foto%3A+Kamar+Kos+Furnished+Rapi" alt="Kamar kos yang sudah furnished rapi" class="object-cover w-full h-full">
+        </div>
+      </div>
+    </div>
+
+    <p class="text-gray-600 leading-relaxed mb-14 max-w-3xl">Yogyakarta punya lebih dari <strong class="text-brand-navy">500.000 mahasiswa aktif</strong>. Mereka tidak sekadar butuh tempat tinggal — mereka memilih kos yang <strong class="text-brand-navy">paling nyaman dan paling estetis</strong> dalam budget mereka. Kamar kos furnished premium bisa dihargai <strong class="text-brand-navy">30–50% lebih tinggi</strong> dari kamar kosong di lokasi yang sama.</p>
+
+    <p class="text-lg font-semibold text-brand-navy mb-8">Masalah yang sering dihadapi pemilik kos:</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+      <div class="bg-brand-bg rounded-2xl p-7 border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">inventory_2</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Cari furnitur 20+ kamar sekaligus itu tidak mudah</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Beli eceran di toko retail hasilnya tidak seragam dan memakan waktu. Cari vendor yang bisa handle pemesanan massal dengan kualitas konsisten justru susah ditemukan.</p>
+      </div>
+      <div class="bg-brand-bg rounded-2xl p-7 border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">payments</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Furnitur murah = pengeluaran berulang</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Furnitur kos murah biasanya bertahan 1–2 tahun. Investasi awal yang sedikit lebih tinggi pada material solid bisa bertahan 5–10 tahun.</p>
+      </div>
+      <div class="bg-brand-bg rounded-2xl p-7 border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">palette</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Gen Z yang jadi pasar kos sekarang lebih pilih-pilih</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Kamar yang estetis lebih cepat tersewa — dan bisa dinaikkan harganya.</p>
+      </div>
+    </div>
+
+    <p class="text-lg font-semibold text-brand-navy mb-5">Paket furnitur kos yang kami tawarkan:</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+      <div class="bg-white rounded-2xl p-7 border-2 border-brand-gold/40 shadow-sm">
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Paket Standar per Kamar</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Dipan + rangka kasur, lemari pakaian 2 pintu, meja belajar + kursi, rak dinding (opsional)</p>
+      </div>
+      <div class="bg-brand-navy rounded-2xl p-7 border-2 border-brand-gold/40 shadow-sm">
+        <h3 class="font-heading font-bold text-white mb-2">Paket Premium per Kamar</h3>
+        <p class="text-gray-200 text-sm leading-relaxed">Semua item standar + lemari dengan cermin terintegrasi, meja rias, nakas</p>
+      </div>
+    </div>
+    <p class="text-gray-600 text-sm leading-relaxed mb-14">Semua kayu solid, finishing pilihan (natural, putih, atau warna request). Bisa dipesan mulai dari 5 unit kamar.</p>
+
+    <div class="bg-brand-bg rounded-2xl p-8 md:p-10 border border-brand-gold/30 mb-12">
+      <p class="flex items-center gap-2 text-lg font-heading font-bold text-brand-navy mb-6">
+        <span class="material-symbols-rounded text-brand-gold">lightbulb</span> Simulasi ROI:
+      </p>
+      <div class="space-y-2 text-gray-700 text-sm leading-relaxed">
+        <p>Kamar kosong di Sleman → Rp800.000/bulan.</p>
+        <p>Kamar furnished premium → Rp1.200.000–1.500.000/bulan.</p>
+        <p>Selisih Rp400.000–700.000/kamar/bulan.</p>
+        <p>Untuk 20 kamar = tambahan Rp8–14 juta/bulan.</p>
+        <p class="font-semibold text-brand-navy">Investasi furnitur biasanya balik modal dalam 6–12 bulan.</p>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20pemilik%20kos%20dan%20ingin%20penawaran%20paket%20furnitur%20untuk%20%5BX%5D%20kamar." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full text-white bg-brand-navy hover:bg-brand-navyLight transition-all shadow-lg gap-2 transform hover:scale-105">
+        <span class="material-symbols-rounded text-xl">home</span> Minta Penawaran Paket Kos
+      </a>
+      <p class="text-sm text-gray-500 italic mt-3">Sebutkan jumlah kamar, kami hitung harga per unit</p>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 4 — KONTEN MITRA & MULTIPLIER -->
+<section class="py-20 md:py-24 bg-brand-dark text-white relative overflow-hidden">
+  <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-gold rounded-full opacity-10 blur-3xl"></div>
+  <div class="absolute -bottom-24 -left-24 w-72 h-72 bg-brand-gold rounded-full opacity-10 blur-3xl"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center max-w-3xl mx-auto mb-20">
+      <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Program Khusus untuk Profesional</span>
+      <h2 class="mt-3 text-3xl md:text-4xl font-heading font-extrabold leading-tight mb-6">Kamu Profesional di Industri Ini? Mari Berkolaborasi.</h2>
+      <p class="text-gray-300 leading-relaxed">Kami memahami bahwa kontraktor, developer, arsitek, dan desainer interior bekerja dengan cara yang berbeda dari klien akhir. Untuk itu, kami menyediakan program mitra yang dirancang khusus untuk kebutuhan profesional kamu.</p>
+    </div>
+
+    <!-- 4A KONTRAKTOR -->
+    <div id="kontraktor" class="scroll-mt-20 mb-20">
+      <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 mb-10">
+        <div class="w-full lg:w-1/2 order-2 lg:order-1 space-y-5">
+          <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Untuk Kontraktor Interior</span>
+          <h3 class="mt-1 text-2xl md:text-3xl font-heading font-extrabold leading-tight">Supplier Furnitur Custom yang Bisa Kamu Andalkan di Setiap Proyek</h3>
+          <p class="text-gray-300 leading-relaxed text-sm">Sebagai kontraktor, kamu butuh supplier yang bisa mengikuti ritme proyek — bukan yang memperlambatnya. Kami hadir sebagai <strong class="text-white">partner produksi</strong> yang memahami cara kerja proyek interior: ada deadline, ada RAB yang harus dipenuhi, dan ada klien yang perlu dipuaskan.</p>
+        </div>
+        <div class="w-full lg:w-1/2 order-1 lg:order-2">
+          <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+            <img loading="lazy" src="https://placehold.co/900x700/24404F/ffffff?text=Foto%3A+Proses+Instalasi+Furnitur+%2F+Meeting+Proyek" alt="Proses instalasi furnitur atau meeting dengan tim proyek" class="object-cover w-full h-full opacity-90">
+          </div>
+        </div>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-10 mb-8">
+        <p class="font-heading font-bold mb-6">Apa yang kami tawarkan untuk kontraktor:</p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mb-8">
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Harga mitra (supplier rate)</strong> — lebih kompetitif dari harga retail, untuk margin yang lebih baik di proyekmu</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Produksi sesuai jadwal proyek</strong> — milestone produksi disesuaikan dengan timeline konstruksi kamu</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Dukungan teknis</strong> — gambar kerja, spesifikasi material, dan sample finishing untuk presentasi ke klien</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Pengiriman &amp; instalasi terkoordinasi</strong> — tidak mengganggu pekerjaan kontraktor lain yang sedang berjalan</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Pemesanan fleksibel</strong> — dari 1 unit hingga ratusan unit dalam satu proyek</span></li>
+        </ul>
+        <p class="font-semibold mb-3">Cocok untuk proyek:</p>
+        <ul class="space-y-2">
+          <li class="flex items-start gap-3 text-gray-300 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Renovasi rumah tinggal (klien kamu butuh furnitur custom)</li>
+          <li class="flex items-start gap-3 text-gray-300 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Interior café, restoran, kantor</li>
+          <li class="flex items-start gap-3 text-gray-300 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Properti komersial: hotel, villa, co-working</li>
+        </ul>
+      </div>
+      <div class="text-center">
+        <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20kontraktor%20interior%20dan%20ingin%20bergabung%20sebagai%20mitra%20supplier." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full text-brand-dark bg-brand-gold hover:bg-brand-goldHover transition-all shadow-lg gap-2 transform hover:scale-105">
+          <span class="material-symbols-rounded text-xl">handyman</span> Daftar sebagai Mitra Kontraktor
+        </a>
+        <p class="text-sm text-gray-400 italic mt-3">Hubungi kami untuk rate khusus</p>
+      </div>
+    </div>
+
+    <!-- 4B DEVELOPER -->
+    <div id="developer" class="scroll-mt-20 mb-20 pt-16 border-t border-white/10">
+      <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 mb-10">
+        <div class="w-full lg:w-1/2">
+          <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Untuk Developer Perumahan</span>
+          <h3 class="mt-3 text-2xl md:text-3xl font-heading font-extrabold leading-tight">Jadikan Furnitur sebagai Nilai Tambah yang Mempercepat Penjualan Unit</h3>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+            <img loading="lazy" src="https://placehold.co/900x700/24404F/ffffff?text=Foto%3A+Show+Unit+Furnished+%2F+Perumahan+Cluster" alt="Show unit rumah yang furnished rapi" class="object-cover w-full h-full opacity-90">
+          </div>
+        </div>
+      </div>
+      <div class="space-y-4 mb-8 text-gray-300 text-sm leading-relaxed max-w-4xl">
+        <p>Furnitur show unit yang berkualitas dan estetis adalah alat penjualan yang sering diremehkan. Calon pembeli yang masuk ke show unit yang furnished dengan baik lebih mudah membayangkan diri tinggal di sana — dan lebih cepat membuat keputusan.</p>
+        <p>Di sisi lain, kamu juga bisa menawarkan <strong class="text-white">paket furnitur opsional</strong> kepada pembeli rumah — nilai tambah yang membedakan proyek kamu dari kompetitor dan menambah revenue per unit.</p>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-10 mb-8">
+        <p class="font-heading font-bold mb-6">Yang kami tawarkan untuk developer:</p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mb-8">
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Furnitur show unit</strong> — didesain untuk memaksimalkan daya tarik visual unit, gaya yang sesuai target pasar perumahan kamu</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Paket furnishing per unit</strong> — furniture bundling yang bisa ditawarkan sebagai add-on kepada pembeli rumah</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Volume pricing</strong> — harga lebih kompetitif untuk pemesanan dalam jumlah banyak (multiple unit atau multiple cluster)</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Konsultasi desain</strong> — kami bantu menentukan gaya furnitur yang paling cocok dengan positioning proyek properti kamu</span></li>
+          <li class="flex items-start gap-3"><span class="material-symbols-rounded text-brand-gold text-xl mt-0.5">check_circle</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Pengiriman terjadwal</strong> — furnitur tiba sesuai jadwal serah terima unit</span></li>
+        </ul>
+        <p class="font-semibold mb-3">Cocok untuk:</p>
+        <ul class="space-y-2">
+          <li class="flex items-start gap-3 text-gray-300 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Perumahan cluster landed house (tipe 33–90 m²)</li>
+          <li class="flex items-start gap-3 text-gray-300 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Apartemen studio dan 2BR</li>
+          <li class="flex items-start gap-3 text-gray-300 text-sm"><span class="material-symbols-rounded text-brand-gold text-base mt-0.5">chevron_right</span>Townhouse dan vila cluster</li>
+        </ul>
+      </div>
+      <div class="flex items-start gap-3 bg-brand-gold/10 border border-brand-gold/30 rounded-xl p-6 mb-10">
+        <span class="material-symbols-rounded text-brand-gold text-xl mt-0.5 shrink-0">lightbulb</span>
+        <p class="text-sm text-gray-200 leading-relaxed"><strong class="text-white">Fakta pasar:</strong> Harga properti di Yogyakarta naik +8,9% per tahun (sumber: Rumah123, 2025). Pembeli rumah baru — terutama milenial — sangat terbuka terhadap paket furnitur yang memudahkan proses pindahan mereka.</p>
+      </div>
+      <div class="text-center">
+        <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20developer%20perumahan%20dan%20ingin%20diskusikan%20program%20kerjasama." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full text-brand-dark bg-brand-gold hover:bg-brand-goldHover transition-all shadow-lg gap-2 transform hover:scale-105">
+          <span class="material-symbols-rounded text-xl">holiday_village</span> Diskusikan Program untuk Developer
+        </a>
+        <p class="text-sm text-gray-400 italic mt-3">Hubungi kami untuk proposal kemitraan</p>
+      </div>
+    </div>
+
+    <!-- 4C ARSITEK & DESAINER -->
+    <div id="arsitek" class="scroll-mt-20 pt-16 border-t border-white/10">
+      <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 mb-10">
+        <div class="w-full lg:w-1/2 order-2 lg:order-1 space-y-5">
+          <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Untuk Arsitek &amp; Desainer Interior</span>
+          <h3 class="mt-1 text-2xl md:text-3xl font-heading font-extrabold leading-tight">Program Mitra Eksklusif — Karena Referensimu Bernilai</h3>
+          <p class="text-gray-300 leading-relaxed text-sm">Kami memahami posisi strategis arsitek dan desainer interior dalam rantai pengambilan keputusan proyek. Kamu bukan sekadar pengguna furnitur — kamu adalah <strong class="text-white">penentu furnitur yang akan digunakan klienmu</strong>.</p>
+          <p class="text-gray-300 leading-relaxed text-sm">Oleh karena itu, kami tidak memperlakukan kamu seperti pembeli biasa. Kami mengajak kamu sebagai <strong class="text-white">mitra jangka panjang</strong>.</p>
+        </div>
+        <div class="w-full lg:w-1/2 order-1 lg:order-2">
+          <div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+            <img loading="lazy" src="https://placehold.co/900x700/24404F/ffffff?text=Foto%3A+Meja+Desain+Sketsa+%26+Sample+Material" alt="Meja desain dengan sketsa dan material sample kayu" class="object-cover w-full h-full opacity-90">
+          </div>
+        </div>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-10 mb-8">
+        <p class="font-heading font-bold mb-6">Program Mitra Naturalindo untuk Arsitek &amp; Desainer Interior:</p>
+        <ul class="space-y-5">
+          <li class="flex items-start gap-4"><span class="material-symbols-rounded text-brand-gold text-2xl shrink-0">handshake</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Referral Fee</strong> — Untuk setiap proyek klien yang kamu rekomendasikan dan terealisasi, kamu mendapatkan kompensasi referral yang disepakati. Transparan dan terdokumentasi.</span></li>
+          <li class="flex items-start gap-4"><span class="material-symbols-rounded text-brand-gold text-2xl shrink-0">square_foot</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Dukungan Presentasi Klien</strong> — Kami menyediakan gambar 3D, material sample, dan spesifikasi teknis yang bisa kamu gunakan langsung dalam presentasi ke klienmu.</span></li>
+          <li class="flex items-start gap-4"><span class="material-symbols-rounded text-brand-gold text-2xl shrink-0">bolt</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Prioritas Produksi</strong> — Proyek yang datang melalui mitra desainer mendapatkan antrian produksi prioritas — jadwal lebih terjamin untuk kebutuhan timeline proyekmu.</span></li>
+          <li class="flex items-start gap-4"><span class="material-symbols-rounded text-brand-gold text-2xl shrink-0">chat</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Konsultasi Material Langsung</strong> — Akses langsung ke tim kami untuk diskusi teknis material, finishing, dan konstruksi — tanpa harus melalui proses konsultasi umum.</span></li>
+          <li class="flex items-start gap-4"><span class="material-symbols-rounded text-brand-gold text-2xl shrink-0">palette</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Co-creation</strong> — Kamu yang desain, kami yang eksekusi. Kami terbuka untuk wujudkan desain kamu — bahkan yang kompleks sekalipun.</span></li>
+          <li class="flex items-start gap-4"><span class="material-symbols-rounded text-brand-gold text-2xl shrink-0">photo_library</span><span class="text-gray-300 text-sm leading-relaxed"><strong class="text-white">Dokumentasi Portofolio Bersama</strong> — Setiap proyek kolaborasi kami dokumentasikan dengan baik dan bisa digunakan sebagai portofolio bersama (dengan persetujuan klien).</span></li>
+        </ul>
+      </div>
+      <div class="mb-10">
+        <p class="font-semibold text-white mb-2">Sudah terdaftar di komunitas profesional?</p>
+        <p class="text-gray-300 text-sm leading-relaxed">Kami aktif membuka kerjasama dengan anggota <strong class="text-white">IAI DIY</strong> (Ikatan Arsitek Indonesia) dan <strong class="text-white">HDII DIY</strong> (Himpunan Desainer Interior Indonesia).</p>
+      </div>
+      <div class="text-center">
+        <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20arsitek%2Fdesainer%20interior%20dan%20ingin%20tahu%20lebih%20lanjut%20tentang%20Program%20Mitra." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full text-brand-dark bg-brand-gold hover:bg-brand-goldHover transition-all shadow-lg gap-2 transform hover:scale-105">
+          <span class="material-symbols-rounded text-xl">architecture</span> Daftar Program Mitra Sekarang
+        </a>
+        <p class="text-sm text-gray-400 italic mt-3">Hubungi kami — kami akan jelaskan detail program dan mulai diskusi proyek pertama bersama.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 5 — CARA KERJA B2B -->
+<section class="py-20 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm">Proses yang jelas dari awal hingga selesai</span>
+      <h2 class="mt-3 text-3xl md:text-4xl font-heading font-extrabold text-brand-navy">Transparansi adalah Standar Kami, Bukan Pilihan</h2>
+    </div>
+
+    <div class="relative">
+      <div class="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gray-200" aria-hidden="true"></div>
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div class="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
+          <div class="w-16 h-16 rounded-full bg-brand-navy text-white flex items-center justify-center text-xl font-heading font-bold shadow-md mb-6 mx-auto md:mx-0 ring-8 ring-white">1</div>
+          <h3 class="font-heading font-bold text-brand-navy mb-2">Konsultasi Awal</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Ceritakan proyekmu — jenis bisnis, jumlah unit, konsep, timeline, dan anggaran. Via WhatsApp, telepon, atau meeting langsung. Gratis, tanpa komitmen.</p>
+        </div>
+        <div class="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
+          <div class="w-16 h-16 rounded-full bg-brand-navy text-white flex items-center justify-center text-xl font-heading font-bold shadow-md mb-6 mx-auto md:mx-0 ring-8 ring-white">2</div>
+          <h3 class="font-heading font-bold text-brand-navy mb-2">Survey &amp; Pengukuran</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Tim kami datang ke lokasi untuk pengukuran aktual. Ini memastikan setiap furnitur fit sempurna saat dipasang — tidak ada ukuran yang meleset.</p>
+        </div>
+        <div class="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
+          <div class="w-16 h-16 rounded-full bg-brand-navy text-white flex items-center justify-center text-xl font-heading font-bold shadow-md mb-6 mx-auto md:mx-0 ring-8 ring-white">3</div>
+          <h3 class="font-heading font-bold text-brand-navy mb-2">Proposal Tertulis</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Kami kirimkan proposal lengkap: spesifikasi material, desain/3D, rincian harga, dan jadwal produksi. Semua tertulis, tidak ada yang lisan. Revisi bisa dilakukan sebelum kontrak ditandatangani.</p>
+        </div>
+        <div class="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
+          <div class="w-16 h-16 rounded-full bg-brand-navy text-white flex items-center justify-center text-xl font-heading font-bold shadow-md mb-6 mx-auto md:mx-0 ring-8 ring-white">4</div>
+          <h3 class="font-heading font-bold text-brand-navy mb-2">Produksi + Update Berkala</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Produksi berjalan dengan milestone yang jelas. Kamu mendapat foto update progres secara rutin — transparan tanpa harus datang ke workshop.</p>
+        </div>
+        <div class="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
+          <div class="w-16 h-16 rounded-full bg-brand-navy text-white flex items-center justify-center text-xl font-heading font-bold shadow-md mb-6 mx-auto md:mx-0 ring-8 ring-white">5</div>
+          <h3 class="font-heading font-bold text-brand-navy mb-2">Pengiriman &amp; Instalasi</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Furnitur dikirim dan dipasang sesuai jadwal yang telah disepakati di kontrak. Tim instalasi kami terkoordinasi dan bekerja bersih.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 text-center">
+      <div class="inline-flex items-center gap-2 bg-brand-bg px-6 py-3 rounded-full border border-gray-200">
+        <span class="material-symbols-rounded text-brand-gold text-lg">schedule</span>
+        <p class="text-sm text-gray-600 font-medium">Proyek standar: 3–6 minggu | Proyek skala besar: 6–12 minggu | Semua tercantum dalam kontrak.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 6 — KEUNGGULAN B2B -->
+<section class="py-20 md:py-24 bg-brand-bg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-heading font-extrabold text-brand-navy">Kami Memahami Bahwa di Dunia Bisnis, Waktu dan Kualitas Adalah Segalanya</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">schedule</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Komitmen Jadwal Tertulis</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Deadline bukan sekadar janji lisan. Milestone produksi dan tanggal pengiriman tercantum dalam kontrak — dan kami pegang.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">description</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Kontrak Formal di Setiap Proyek</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Spesifikasi, harga, jadwal, dan garansi — semuanya tertulis dan disepakati sebelum produksi dimulai. Tidak ada ruang untuk interpretasi yang berbeda.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">precision_manufacturing</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Material Komersial-Grade</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Furnitur bisnis menerima intensitas penggunaan yang jauh lebih tinggi dari furnitur rumah tangga. Kami pilih material dan konstruksi yang dirancang untuk itu.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">photo_camera</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Update Foto Progres Rutin</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Kamu tidak dibiarkan menunggu tanpa informasi. Setiap tahap produksi terdokumentasi dan dikirimkan secara berkala.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">sync</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Konsistensi Kualitas Antar Unit</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Untuk proyek 30 kursi café atau 50 kamar kos, setiap unit identik kualitasnya — tidak ada yang berbeda finishing atau ukurannya.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-brand-gold/20">
+        <span class="material-symbols-rounded text-3xl text-brand-gold mb-4 block">verified_user</span>
+        <h3 class="font-heading font-bold text-brand-navy mb-2">Garansi Pengerjaan</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Hubungan kami tidak selesai saat furnitur terpasang. Cacat material atau pengerjaan dalam periode garansi — kami tanggung jawab.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 7 — BUKTI SOSIAL -->
+<section class="py-20 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-heading font-extrabold text-brand-navy">Dipercaya oleh Pelaku Bisnis dan Profesional Yogyakarta</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+      <div class="bg-brand-bg p-8 rounded-2xl relative border border-brand-gold/40">
+        <div class="text-brand-gold/20 text-6xl absolute top-4 right-6 font-heading">"</div>
+        <p class="text-gray-700 italic mb-6 relative z-10 text-sm leading-relaxed">"40 kursi dan 15 meja kami pesan untuk café baru di Sleman. Semua kursi identik kualitasnya — tidak ada yang reject. Pelanggan sering tanya beli furniturnya di mana."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-brand-navy text-brand-gold flex items-center justify-center font-bold text-sm">BT</div>
+          <div>
+            <p class="font-bold text-brand-navy text-sm">Bagas T.</p>
+            <p class="text-xs text-gray-500">Owner Café, Sleman</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-brand-bg p-8 rounded-2xl relative border border-brand-gold/40">
+        <div class="text-brand-gold/20 text-6xl absolute top-4 right-6 font-heading">"</div>
+        <p class="text-gray-700 italic mb-6 relative z-10 text-sm leading-relaxed">"25 kamar kos baru saya langsung penuh dalam 2 minggu pertama buka. Saya pasang harga 30% lebih tinggi dari kos sekitar — dan tetap penuh. Furniturnya jadi pembeda utama."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-brand-navy text-brand-gold flex items-center justify-center font-bold text-sm">PH</div>
+          <div>
+            <p class="font-bold text-brand-navy text-sm">Pak Hendra</p>
+            <p class="text-xs text-gray-500">Pemilik Kos, Banguntapan</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-brand-bg p-8 rounded-2xl relative border border-brand-gold/40">
+        <div class="text-brand-gold/20 text-6xl absolute top-4 right-6 font-heading">"</div>
+        <p class="text-gray-700 italic mb-6 relative z-10 text-sm leading-relaxed">"Saya sudah pakai Mebel Naturalindo sebagai supplier di 4 proyek berbeda. Jadwal selalu tepat, kualitas konsisten, dan komunikasinya profesional. Itu yang paling penting buat saya sebagai kontraktor."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-brand-navy text-brand-gold flex items-center justify-center font-bold text-sm">RA</div>
+          <div>
+            <p class="font-bold text-brand-navy text-sm">Rizky A.</p>
+            <p class="text-xs text-gray-500">Kontraktor Interior, Yogyakarta</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-brand-bg p-8 rounded-2xl relative border border-brand-gold/40">
+        <div class="text-brand-gold/20 text-6xl absolute top-4 right-6 font-heading">"</div>
+        <p class="text-gray-700 italic mb-6 relative z-10 text-sm leading-relaxed">"Program mitra-nya sangat membantu. Saya tinggal bawa referensi desain klien, tim Naturalindo yang eksekusi. Hasilnya selalu presisi dan klien puas. Referral fee-nya juga transparan."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-brand-navy text-brand-gold flex items-center justify-center font-bold text-sm">DR</div>
+          <div>
+            <p class="font-bold text-brand-navy text-sm">Dita R.</p>
+            <p class="text-xs text-gray-500">Desainer Interior, Sleman</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row flex-wrap items-center justify-center gap-6 md:gap-12 py-8 border-y border-gray-200">
+      <div class="flex items-center gap-3 text-brand-navy font-medium text-base md:text-lg">
+        <div class="w-14 h-14 rounded-2xl bg-brand-bg border border-brand-gold/20 shadow-sm flex items-center justify-center"><span class="material-symbols-rounded text-brand-gold text-2xl">local_cafe</span></div>
+        <span>200+ Proyek Café &amp; Restoran</span>
+      </div>
+      <div class="hidden md:block w-px h-8 bg-gray-300"></div>
+      <div class="flex items-center gap-3 text-brand-navy font-medium text-base md:text-lg">
+        <div class="w-14 h-14 rounded-2xl bg-brand-bg border border-brand-gold/20 shadow-sm flex items-center justify-center"><span class="material-symbols-rounded text-brand-gold text-2xl">hotel</span></div>
+        <span>150+ Proyek Hospitality</span>
+      </div>
+      <div class="hidden md:block w-px h-8 bg-gray-300"></div>
+      <div class="flex items-center gap-3 text-brand-navy font-medium text-base md:text-lg">
+        <div class="w-14 h-14 rounded-2xl bg-brand-bg border border-brand-gold/20 shadow-sm flex items-center justify-center"><span class="material-symbols-rounded text-brand-gold text-2xl">home</span></div>
+        <span>1.500+ Kamar Kos</span>
+      </div>
+      <div class="hidden md:block w-px h-8 bg-gray-300"></div>
+      <div class="flex items-center gap-3 text-brand-navy font-medium text-base md:text-lg">
+        <div class="w-14 h-14 rounded-2xl bg-brand-bg border border-brand-gold/20 shadow-sm flex items-center justify-center"><span class="material-symbols-rounded text-brand-gold text-2xl">handshake</span></div>
+        <span>50+ Mitra Profesional</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 8 — FAQ B2B -->
+<section class="py-20 md:py-24 bg-brand-bg">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-heading font-extrabold text-brand-navy">Pertanyaan yang Sering Ditanyakan</h2>
+    </div>
+
+    <div class="space-y-4">
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Berapa minimum order?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Tidak ada minimum order yang kaku. Kami melayani dari beberapa unit hingga ratusan unit. Semakin besar volume, semakin kompetitif harga per unitnya.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Apakah ada kontrak tertulis?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Selalu. Setiap proyek dilindungi kontrak resmi yang mencantumkan spesifikasi, harga, jadwal, dan ketentuan garansi.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Apakah bisa request desain dari referensi?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Sangat bisa. Bawa referensi visual (foto, moodboard, Pinterest/Instagram) dan tim kami akan adaptasi sesuai kebutuhan dan ukuran ruangan kamu.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Bagaimana jika ada item yang tidak sesuai saat diterima?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Kami lakukan QC sebelum pengiriman. Jika ada item yang tidak sesuai spesifikasi kontrak, kami ganti atau perbaiki tanpa biaya tambahan.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Bagaimana sistem pembayarannya?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Bertahap sesuai progres: DP saat kontrak ditandatangani, termin di tengah produksi, pelunasan sebelum pengiriman. Detail tercantum dalam kontrak.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Berapa lama untuk proyek skala besar seperti hotel?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Untuk 30–50 kamar hotel, estimasi 8–12 minggu. Semua tercantum dalam proposal dan kontrak.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Bagaimana cara bergabung dengan Program Mitra untuk arsitek/kontraktor?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Hubungi kami via WhatsApp dan sebutkan profesi kamu. Kami akan jelaskan detail program, rate mitra, dan mulai diskusi proyek pertama bersama.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Apakah developer bisa menawarkan paket furnitur ke pembeli rumah?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Ya. Kami bisa menjadi supplier furnitur bundling yang kamu tawarkan sebagai opsi kepada pembeli unit. Kita diskusikan skema kerjasama dan pricing-nya.</div>
+      </details>
+
+      <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <summary class="flex justify-between items-center gap-4 font-medium cursor-pointer list-none p-6 text-brand-navy hover:bg-gray-50 transition-colors">
+          <span class="flex items-center gap-3">❓ Area layanan meliputi mana saja?</span>
+          <span class="material-symbols-rounded transition-transform duration-300 group-open:rotate-180 shrink-0">expand_more</span>
+        </summary>
+        <div class="p-6 pt-0 text-gray-600 text-sm leading-relaxed">Kami fokus di <strong>DIY dan sekitarnya</strong> — Yogyakarta, Sleman, Bantul, Kulon Progo, Gunungkidul, serta Klaten, Magelang, dan Purworejo. Hubungi kami untuk konfirmasi.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- SEKSI 9 — CTA AKHIR -->
+<section id="cta-akhir" class="py-20 md:py-24 bg-brand-navy text-white relative overflow-hidden">
+  <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-gold rounded-full opacity-10 blur-3xl"></div>
+  <div class="absolute -bottom-24 -left-24 w-72 h-72 bg-brand-gold rounded-full opacity-10 blur-3xl"></div>
+
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h2 class="text-3xl md:text-5xl font-heading font-extrabold mb-6 leading-tight">Bisnismu Layak Dapat Partner Furnitur yang Seprofesional Kamu.</h2>
+    <p class="text-lg md:text-xl text-gray-300 mb-4 max-w-2xl mx-auto leading-relaxed">Apakah kamu pemilik café, hotel, kantor, kos-kosan — atau seorang arsitek, kontraktor, maupun developer — kami siap berdiskusi tentang bagaimana kami bisa bekerja sama.</p>
+    <p class="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">Hubungi kami hari ini. Konsultasi gratis, proposal dalam 1–2 hari kerja.</p>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-14 max-w-4xl mx-auto">
+
+    <!-- Café -->
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20pemilik%20caf%C3%A9%20dan%20ingin%20konsultasi%20furnitur."
+        target="_blank"
+        class="flex flex-col items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-5 transition-colors">
+        <span class="material-symbols-rounded text-brand-gold text-2xl">local_cafe</span>
+        <span class="text-sm font-semibold">Café &amp; Restoran</span>
+        <span class="text-xs text-gray-400">Konsultasi proyek</span>
+    </a>
+
+    <!-- Hotel -->
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20mendiskusikan%20proyek%20furnitur%20untuk%20hotel%2Fvilla%20saya."
+        target="_blank"
+        class="flex flex-col items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-5 transition-colors">
+        <span class="material-symbols-rounded text-brand-gold text-2xl">hotel</span>
+        <span class="text-sm font-semibold">Hotel &amp; Villa</span>
+        <span class="text-xs text-gray-400">Minta proposal</span>
+    </a>
+
+    <!-- Kantor -->
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20butuh%20furnitur%20custom%20untuk%20kantor%2Fco-working%20space%20saya."
+        target="_blank"
+        class="flex flex-col items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-5 transition-colors">
+        <span class="material-symbols-rounded text-brand-gold text-2xl">business_center</span>
+        <span class="text-sm font-semibold">Kantor</span>
+        <span class="text-xs text-gray-400">Diskusikan kebutuhan</span>
+    </a>
+
+    <!-- Kos -->
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20pemilik%20kos%20dan%20ingin%20penawaran%20paket%20furnitur%20untuk%20%5BX%5D%20kamar."
+        target="_blank"
+        class="flex flex-col items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-5 transition-colors">
+        <span class="material-symbols-rounded text-brand-gold text-2xl">home</span>
+        <span class="text-sm font-semibold">Kos-kosan</span>
+        <span class="text-xs text-gray-400">Minta penawaran paket</span>
+    </a>
+
+    <!-- Kontraktor -->
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20kontraktor%20interior%20dan%20ingin%20bergabung%20sebagai%20mitra%20supplier."
+        target="_blank"
+        class="flex flex-col items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-5 transition-colors">
+        <span class="material-symbols-rounded text-brand-gold text-2xl">handyman</span>
+        <span class="text-sm font-semibold">Kontraktor</span>
+        <span class="text-xs text-gray-400">Daftar mitra supplier</span>
+    </a>
+
+    <!-- Developer -->
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20developer%20perumahan%20dan%20ingin%20diskusikan%20program%20kerjasama."
+        target="_blank"
+        class="flex flex-col items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-5 transition-colors">
+        <span class="material-symbols-rounded text-brand-gold text-2xl">holiday_village</span>
+        <span class="text-sm font-semibold">Developer</span>
+        <span class="text-xs text-gray-400">Diskusikan kerjasama</span>
+    </a>
+
+    <!-- Arsitek -->
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20arsitek%2Fdesainer%20interior%20dan%20ingin%20tahu%20lebih%20lanjut%20tentang%20Program%20Mitra."
+        target="_blank"
+        class="flex flex-col items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-5 transition-colors col-span-2 sm:col-span-1">
+        <span class="material-symbols-rounded text-brand-gold text-2xl">architecture</span>
+        <span class="text-sm font-semibold">Arsitek &amp; Desainer</span>
+        <span class="text-xs text-gray-400">Bergabung Program Mitra</span>
+    </a>
+
+    </div>
+
+    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20furnitur%20untuk%20bisnis%20saya." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold rounded-full bg-green-500 text-white hover:bg-green-600 transition-transform transform hover:scale-105 shadow-xl shadow-green-500/10 gap-2 mb-4">
+        <i class="fa-brands fa-whatsapp text-2xl"></i> Hubungi Kami via WhatsApp
+    </a>
+
+
+    <p class="text-gray-400 text-sm italic mb-12">Sebutkan profesi atau jenis bisnis kamu — kami akan arahkan ke program yang paling sesuai.</p>
+
+    <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm text-gray-400 border-t border-gray-700 pt-8">
+      <span class="flex items-center gap-2"><span class="material-symbols-rounded text-base">location_on</span> Workshop: Bantul, Yogyakarta</span>
+      <span class="hidden md:inline text-gray-600">|</span>
+      <span class="flex items-center gap-2"><span class="material-symbols-rounded text-base">schedule</span> Senin–Sabtu, 08.00–17.00 WIB</span>
+      <span class="hidden md:inline text-gray-600">|</span>
+      <span class="flex items-center gap-2"><span class="material-symbols-rounded text-base">description</span> Kontrak Formal</span>
+      <span class="hidden md:inline text-gray-600">|</span>
+      <span class="flex items-center gap-2"><span class="material-symbols-rounded text-base">handshake</span> Program Mitra Tersedia</span>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black py-8 text-center border-t border-gray-800">
+  <p class="text-gray-500 text-sm">&copy; 2026 Mebel Naturalindo. All rights reserved. <br class="sm:hidden"> Dibuat dengan presisi di Yogyakarta.</p>
+</footer>
+
+<!-- Floating WhatsApp (Mobile Only) -->
+<a
+    href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20furnitur%20untuk%20bisnis%20saya."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="md:hidden fixed bottom-5 right-5 z-[999] w-16 h-16 rounded-full bg-green-500 hover:bg-green-600 text-white flex items-center justify-center shadow-2xl transition duration-300 hover:scale-110 active:scale-95"
+    aria-label="Chat WhatsApp"
+    >
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+<script>
+  document.querySelectorAll('.tab-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.tab-btn').forEach(function(b){
+        b.classList.remove('active');
+        b.classList.add('text-brand-navy');
+      });
+      document.querySelectorAll('.tab-panel').forEach(function(p){ p.classList.remove('active'); });
+      btn.classList.add('active');
+      document.getElementById(btn.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
