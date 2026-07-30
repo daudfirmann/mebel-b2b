@@ -1014,6 +1014,33 @@
       }
     });
   });
+
+  // Smooth scroll untuk link internal (#kontraktor, #developer, #arsitek, #cafe-restoran, dst)
+  // Dibuat manual (bukan andalkan anchor jump bawaan browser) supaya offset terhadap
+  // navbar fixed + tab-navigation sticky selalu dihitung akurat, tidak "meloncat" ke posisi salah.
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    var targetId = link.getAttribute('href').slice(1);
+    var target = document.getElementById(targetId);
+    if (!target) return;
+
+    link.addEventListener('click', function(e){
+      e.preventDefault();
+
+      var nav = document.querySelector('nav.fixed');
+      var tabNav = document.getElementById('tab-navigation');
+      var offset = (nav ? nav.offsetHeight : 0) + (tabNav ? tabNav.offsetHeight : 0) + 16;
+
+      var targetTop = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: targetTop < 0 ? 0 : targetTop,
+        behavior: 'smooth'
+      });
+
+      // Update hash di URL tanpa memicu jump bawaan browser
+      history.pushState(null, '', '#' + targetId);
+    });
+  });
 </script>
 
 </body>
